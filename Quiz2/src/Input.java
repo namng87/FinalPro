@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-
+	//JOption Input
 public class Input {
 	public static String username;
 	public static String password;

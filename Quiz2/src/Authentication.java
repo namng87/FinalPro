@@ -1,13 +1,13 @@
 import java.util.Scanner; 
 
 public class Authentication {
-	
+	//	read input username and password
 	static Scanner sc = new Scanner(System.in);	
 	static String correctusername = "Nam";
 	static String correctpassword = "Il0vfam12";
 	static String username, password;
 	
-	
+	//	Authentication
 	public static boolean authentication(String username, String password){
 		boolean status = false;
 		if(correctusername.equalsIgnoreCase(username)){
